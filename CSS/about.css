@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  background-image: url("/Images/backgroundcstle.jpg");
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+/* Start Nav Styles */
+.fixed-top {
+  height: 75px;
+  position: fixed;
+  background: black;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  height: 75px;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.nav-item {
+  float: left;
+  margin-right: 15px;
+}
+
+.nav-item a {
+  color: chartreuse;
+  text-decoration: none;
+  font-family: 'Germania One', cursive;
+}
+/* End Nav Styles */
+/* Start About Styles */
+
+.dracport{
+   
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: 400px;
+    padding: 15px;
+}
+
+
+/* End About Styles */
+/** start footer styles **/
+.main-footer{
+    border: 1px solid black;
+    height: 150px;
+    padding: 15px;
+    background-color: black;
+}
+.footer-section{
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    color: green;
+    font-style: none;
+  
+    
+}
+
+/** end footer styles**/
+
+
+/** start diamond **/
+
+.section{
+    height: 51px;
+    width: 154px;
+}
+.section:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.soc-media{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.center{
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear-left{
+    clear: left;
+}
+.clear-right{
+    clear: right;
+}
+.clear-both{
+    clear: both;
+}
+.soc-media .fa-instagram{
+    font-size: 48px;
+    color: darkred;
+    }
+.soc-media .fa-twitter-square{
+    font-size: 48px;
+    color: darkred;
+}
+.soc-media .fa-facebook-square{
+    font-size: 48px;
+    color: darkred;
+}
+.soc-media .fa-snapchat-square{
+    font-size: 48px;
+    color: darkred;
+}
+p{
+    font-family: 'Germania One', cursive;
+}
+/*end diamond styles*/
