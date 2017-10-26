@@ -14,6 +14,8 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1;
+ 
 }
 
 .logo {
@@ -37,102 +39,159 @@ body {
   font-family: 'Germania One', cursive;
 }
 
+.nav-link:hover{
+  color: crimson;
+  font-family: 'Nosifer', cursive;
+}
+
 /* End Nav Styles */
 /* Start Hero Styles*/
 
 .herobackground{ 
-    margin-top: 100px;
-    padding: 15px;
-   
-    
+  margin-top: 100px;
+  padding: 15px;
 }
 
 .title {
-    height: 200px;
-    width: 50%;
-    margin: 0 25%;
-    border: solid 2px darkred;
+  height: 200px;
+  width: 50%;
+  margin: 0 25%;
+  border: solid 2px darkred;
 }
+
 .intro {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
+.card-container{
+  padding: 30px;
+  position: relative;
+  height: 750px;
+}
+  
+.card{
+  font-family: 'Germania One', cursive;
+  font-size: 24px;
+  text-align: center;
+  color: chartreuse;
+  position: absolute;
+  height: 300px;
+  width: 55%;
+  background: black;
+  border-radius: 6px;
+  border: solid 2px chartreuse;
+}
 
+.middle{
+  right: 30px;
+  top: 250px;
+}
+  
+.bottom{
+  top: 475px;
+}
+
+.creature{
+  height: 50%;
+  bottom: 10px;
+}
+
+.whip{
+  height: 50%;
+  bottom: 10px;
+}
+
+.cave{
+  height: 50%;
+  bottom: 10px;
+}
 
 /* End Hero Styles */
 
-
 /** start footer styles **/
+
 .main-footer{
-    border: 1px solid black;
-    height: 150px;
-    padding: 15px;
-    background-color: black;
+  border: 1px solid black;
+  height: 150px;
+  padding: 15px;
+  background-color: black;
 }
+
 .footer-section{
-    width: 33.333%;
-    height: 100%;
-    float: left;
-    color: green;
-    font-style: none;
-  
-    
+  width: 33.333%;
+  height: 100%;
+  float: left;
+  color: green;
+  font-style: none;
 }
 
 /** end footer styles**/
 /** start diamond **/
 
 .section{
-    height: 51px;
-    width: 154px;
+  height: 51px;
+  width: 154px;
 }
+
 .section:after{
-    content:"";
-    display: block;
-    clear: both;
+  content:"";
+  display: block;
+  clear: both;
 }
+
 .soc-media{
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    font-size: 18px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
 }
+
 .center{
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 .left{
-    float: left;
+  float: left;
 }
+
 .right{
-    float: right;
+  float: right;
 }
+
 .clear-left{
-    clear: left;
+  clear: left;
 }
+
 .clear-right{
-    clear: right;
+  clear: right;
 }
+
 .clear-both{
-    clear: both;
+  clear: both;
 }
+
 .soc-media .fa-instagram{
-    font-size: 48px;
-    color: darkred;
-    }
+  font-size: 48px;
+  color: darkred;
+}
+
 .soc-media .fa-twitter-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 .soc-media .fa-facebook-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 .soc-media .fa-snapchat-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 p{
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
 /* end diamond styles*/

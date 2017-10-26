@@ -36,34 +36,67 @@ body {
   text-decoration: none;
   font-family: 'Germania One', cursive;
 }
+
+.nav-link:hover{
+  color: crimson;
+  font-family: 'Nosifer', cursive;
+    
+}
+
 /* End Nav Styles */
+
 /* Start About Styles */
 
-.dracport{
-   
-    margin-top: 150px;
-    margin-bottom: 150px;
-    height: 400px;
-    padding: 15px;
+.enemy{
+  margin-top: 150px;
+  font-size: 48px;
+  color: chartreuse;
+  text-align: center;
+  font-family: 'Nosifer', cursive;
 }
 
+.bio-container:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.bio{
+  color: chartreuse;
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+  height: 400px;
+  border: 1px solid chartreuse;
+  padding: 15px;
+}
+
+.dracport{
+  float: right;
+  margin-bottom: 150px;
+  margin-right: 10%;
+  height: 400px;
+  border: solid 3px darkred;
+  border-radius: 200px;
+}
 
 /* End About Styles */
+
 /** start footer styles **/
+
 .main-footer{
-    border: 1px solid black;
-    height: 150px;
-    padding: 15px;
-    background-color: black;
+  border: 1px solid black;
+  height: 150px;
+  padding: 15px;
+  background-color: black;
 }
+
 .footer-section{
-    width: 33.333%;
-    height: 100%;
-    float: left;
-    color: green;
-    font-style: none;
-  
-    
+  width: 33.333%;
+  height: 100%;
+  float: left;
+  color: green;
+  font-style: none;
 }
 
 /** end footer styles**/
@@ -72,55 +105,69 @@ body {
 /** start diamond **/
 
 .section{
-    height: 51px;
-    width: 154px;
+  height: 51px;
+  width: 154px;
 }
+
 .section:after{
-    content:"";
-    display: block;
-    clear: both;
+  content:"";
+  display: block;
+  clear: both;
 }
+
 .soc-media{
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    font-size: 18px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
 }
+
 .center{
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 .left{
-    float: left;
+  float: left;
 }
+
 .right{
-    float: right;
+  float: right;
 }
+
 .clear-left{
-    clear: left;
+  clear: left;
 }
+
 .clear-right{
-    clear: right;
+  clear: right;
 }
+
 .clear-both{
-    clear: both;
+  clear: both;
 }
+
 .soc-media .fa-instagram{
-    font-size: 48px;
-    color: darkred;
-    }
+  font-size: 48px;
+  color: darkred;
+}
+
 .soc-media .fa-twitter-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 .soc-media .fa-facebook-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 .soc-media .fa-snapchat-square{
-    font-size: 48px;
-    color: darkred;
+  font-size: 48px;
+  color: darkred;
 }
+
 p{
-    font-family: 'Germania One', cursive;
+  font-family: 'Germania One', cursive;
 }
+
 /*end diamond styles*/
